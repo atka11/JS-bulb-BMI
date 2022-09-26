@@ -1,0 +1,8 @@
+section {
+    margin: 70px;
+}
+
+section div {
+    background-image: url("leaves-pattern.png");
+    padding: 50px;
+}

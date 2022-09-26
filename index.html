@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Tasks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Task 1: Bulb on and off -->
+    <section>
+        <h1>Switch the bulb on and off!</h1>
+        <button onclick="bulbOn()">Turn on the light</button>
+        <img src="pic_bulboff.gif" alt="" id="bulb-image">
+        <button onclick="bulbOff()">Turn off the light</button>
+    </section>
+
+    <!-- Task 2: Change image on clicking -->
+    <section>
+        <h1>Click on the image!</h1>
+        <img id="myImage" onclick="changeImage()" src="woman-with-pumpkin.jpg" width="50%" height="40%">
+    </section>
+
+
+    <!-- Task 3: BMI Converter -->
+    <section>
+        <div>
+            <h1>BMI Calculator</h1>
+            <p>Your height (in cm)</p>
+            <input type="text" id="height" />
+            <p>Your weight (in kg)</p>
+            <input type="text" id="weight" />
+            <br />
+            <br />
+            <button id="button">Calculate</button>
+            <div id="result"></div>
+        </div>
+    </section>
+    
+<script src="script.js"></script>
+</body>
+</html>
